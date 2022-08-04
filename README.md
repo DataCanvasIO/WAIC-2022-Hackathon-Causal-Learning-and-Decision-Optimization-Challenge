@@ -16,6 +16,8 @@
 数据的生成过程遵从所示因果图。其中，X为treatment, Y 为 outcome，其余字母代表了数据集中的其他变量或变量集合，但不对选手公布。
 
 ![image](https://github.com/DataCanvasIO/WAIC-2022-Hackathon-Causal-Learning-and-Decision-Optimization-Challenge/blob/main/O1CN01wxJNq81IrJRyNhfjf_!!6000000000946-0-tps-271-206.jpeg)
+
+
 请注意，数据集在生成过程中有如下假设：
 
 1. 没有未观测到的confounder；
@@ -36,18 +38,9 @@
 
 ## 评价指标
 评估指标是干预方案1的因果效应与真实因果效应之间的normalized RMSE (NRMSE)，加上干预方案2的因果效应与真实因果效应之间NRMSE。NRMSE具体的表达式为：
-enter image description here
-其中，
-enter image description here是第i个样本的因果效应估计值；
-enter image description here是因果效应的真实值；
-enter image description here是真实值的mean。
 
-总的评价得分为
-enter image description here
+![image](https://github.com/DataCanvasIO/WAIC-2022-Hackathon-Causal-Learning-and-Decision-Optimization-Challenge/blob/main/WX20220804-121212.png)
 
-其中
-enter image description here为干预方案1的NRMSE
-enter image description here为干预方案2的NRMSE
 
 ## 比赛阶段
 1. 报名成功后，参赛队伍通过天池平台下载数据，本地调试代码，在线提交结果。
