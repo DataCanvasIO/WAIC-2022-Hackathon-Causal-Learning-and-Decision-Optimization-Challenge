@@ -15,8 +15,7 @@
 
 数据的生成过程遵从所示因果图。其中，X为treatment, Y 为 outcome，其余字母代表了数据集中的其他变量或变量集合，但不对选手公布。
 
->> enter image description here
-
+![image](https://github.com/DataCanvasIO/WAIC-2022-Hackathon-Causal-Learning-and-Decision-Optimization-Challenge/blob/main/O1CN01wxJNq81IrJRyNhfjf_!!6000000000946-0-tps-271-206.jpeg)
 请注意，数据集在生成过程中有如下假设：
 
 1. 没有未观测到的confounder；
